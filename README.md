@@ -105,3 +105,7 @@ submit → 202 + task_id, unknown task → 404, no stack-trace leakage, no wildc
 - CORS is an explicit allowlist; `allow_credentials` is never combined with `*`.
 - The audit target is SSRF-guarded (private/loopback hosts rejected).
 - `DISABLE_SSRF_GUARD=1` exists for sandboxed test environments only — never set it in production.
+
+## Built by VisionQuantech
+
+Part of the [VisionQuantech](https://visionquantech.com/) AI automation studio. See [AI automation services](https://visionquantech.com/ai-automation-services) and the guide to [AI receptionist for dental clinics](https://visionquantech.com/blog/ai-receptionist-for-dental-clinics).
